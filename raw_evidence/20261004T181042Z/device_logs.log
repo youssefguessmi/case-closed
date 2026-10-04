@@ -1,0 +1,50 @@
+2026-08-14T08:00:47Z LAPTOP-EMP0005 user=EMP-0005 event=LOGIN action=success src=10.0.4.7
+2026-08-14T08:11:08Z LAPTOP-EMP0086 user=EMP-0086 event=LOGIN action=success src=10.0.4.30
+2026-08-14T08:14:35Z WORKSTATION-EMP0018 user=EMP-0018 event=LOGIN action=success src=10.0.7.11
+2026-08-14T08:25:16Z LAPTOP-EMP0047 user=EMP-0047 event=LOGIN action=success src=10.0.4.12
+2026-08-14T08:34:31Z LAPTOP-EMP0023 user=EMP-0023 event=LOGIN action=success src=10.0.5.33
+2026-08-14T08:39:01Z WORKSTATION-EMP0039 user=EMP-0039 event=LOGIN action=success src=10.0.9.22
+2026-08-14T08:51:17Z LAPTOP-EMP0092 user=EMP-0092 event=LOGIN action=success src=10.0.5.21
+2026-08-14T08:54:08Z LAPTOP-EMP0064 user=EMP-0064 event=LOGIN action=success src=10.0.6.40
+2026-08-14T09:07:54Z WORKSTATION-EMP0011 user=EMP-0011 event=LOGIN action=success src=10.0.9.14
+2026-08-14T09:12:04Z LAPTOP-EMP0005 user=EMP-0005 event=FILE_ACCESS action=read src=10.0.4.7 path=/exec/board_deck_aug.pptx
+2026-08-14T09:12:05Z WORKSTATION-EMP0031 user=EMP-0031 event=LOGIN action=success src=10.0.7.03
+2026-08-14T09:16:59Z LAPTOP-EMP0052 user=EMP-0052 event=LOGIN action=failure src=10.0.6.18
+2026-08-14T09:17:18Z LAPTOP-EMP0052 user=EMP-0052 event=LOGIN action=success src=10.0.6.18
+2026-08-14T09:29:39Z WORKSTATION-EMP0071 user=EMP-0071 event=LOGIN action=success src=10.0.5.9
+2026-08-14T09:33:55Z LAPTOP-EMP0092 user=EMP-0092 event=FILE_ACCESS action=read src=10.0.5.21 path=/sales/pipeline_q3.xlsx
+2026-08-14T10:14:26Z LAPTOP-EMP0047 user=EMP-0047 event=FILE_ACCESS action=read src=10.0.4.12 path=/finance/audit_2025.xlsx
+2026-08-14T10:31:45Z LAPTOP-EMP0023 user=EMP-0023 event=FILE_ACCESS action=write src=10.0.5.33 path=/marketing/campaign_brief.docx
+2026-08-14T10:48:25Z WORKSTATION-EMP0011 user=EMP-0011 event=FILE_ACCESS action=read src=10.0.9.14 path=/hr/policies/handbook_2026.pdf
+2026-08-14T11:02:09Z WORKSTATION-EMP0018 user=EMP-0018 event=FILE_ACCESS action=read src=10.0.7.11 path=/ops/runbooks/backup.md
+2026-08-14T11:09:39Z LAPTOP-EMP0092 user=EMP-0092 event=EMAIL_SENT action=success src=10.0.5.21 to=external
+2026-08-14T11:26:06Z WORKSTATION-EMP0031 user=EMP-0031 event=FILE_ACCESS action=read src=10.0.7.03 path=/ops/batch/nightly_etl.conf
+2026-08-14T11:40:28Z LAPTOP-EMP0064 user=EMP-0064 event=EMAIL_SENT action=success src=10.0.6.40 to=internal
+2026-08-14T13:36:17Z WORKSTATION-EMP0039 user=EMP-0039 event=FILE_ACCESS action=read src=10.0.9.22 path=/finance/expenses_july.xlsx
+2026-08-14T14:02:15Z WORKSTATION-EMP0011 user=EMP-0011 event=EMAIL_SENT action=success src=10.0.9.14 to=internal
+2026-08-14T14:19:01Z WORKSTATION-EMP0071 user=EMP-0071 event=FILE_ACCESS action=read src=10.0.5.9 path=/shared/projects/roadmap_h2.xlsx
+2026-08-14T14:27:36Z LAPTOP-EMP0005 user=EMP-0005 event=EMAIL_SENT action=success src=10.0.4.7 to=external
+2026-08-14T15:20:16Z WORKSTATION-EMP0031 user=EMP-0031 event=FILE_ACCESS action=write src=10.0.7.03 path=/ops/batch/nightly_etl.conf
+2026-08-14T15:37:38Z LAPTOP-EMP0047 user=EMP-0047 event=FILE_ACCESS action=write src=10.0.4.12 path=/finance/audit_2025_notes.docx
+2026-08-14T15:44:31Z WORKSTATION-EMP0018 user=EMP-0018 event=EMAIL_SENT action=success src=10.0.7.11 to=internal
+2026-08-14T16:05:30Z WORKSTATION-EMP0031 user=EMP-0031 event=EMAIL_SENT action=success src=10.0.7.03 to=internal
+2026-08-14T16:20:52Z LAPTOP-EMP0047 user=EMP-0047 event=EMAIL_SENT action=success src=10.0.4.12 to=internal
+2026-08-14T16:41:31Z LAPTOP-EMP0092 user=EMP-0092 event=FILE_ACCESS action=write src=10.0.5.21 path=/sales/pipeline_q3.xlsx
+2026-08-14T16:42:21Z LAPTOP-EMP0064 user=EMP-0064 event=LOGOUT action=success src=10.0.6.40
+2026-08-14T16:58:36Z WORKSTATION-EMP0039 user=EMP-0039 event=EMAIL_SENT action=success src=10.0.9.22 to=internal
+2026-08-14T17:08:51Z WORKSTATION-EMP0018 user=EMP-0018 event=LOGOUT action=success src=10.0.7.11
+2026-08-14T17:15:28Z WORKSTATION-EMP0011 user=EMP-0011 event=FILE_ACCESS action=read src=10.0.9.14 path=/shared/projects/roadmap_h2.xlsx
+2026-08-14T17:25:46Z LAPTOP-EMP0005 user=EMP-0005 event=LOGOUT action=success src=10.0.4.7
+2026-08-14T17:26:52Z LAPTOP-EMP0086 user=EMP-0086 event=FILE_ACCESS action=write src=10.0.4.30 path=/legal/contracts/vendor_nda.docx
+2026-08-14T17:40:48Z LAPTOP-EMP0023 user=EMP-0023 event=LOGOUT action=success src=10.0.5.33
+2026-08-14T17:51:05Z LAPTOP-EMP0052 user=EMP-0052 event=LOGOUT action=success src=10.0.6.18
+2026-08-14T18:03:52Z LAPTOP-EMP0092 user=EMP-0092 event=LOGOUT action=success src=10.0.5.21
+2026-08-14T18:12:14Z WORKSTATION-EMP0039 user=EMP-0039 event=LOGOUT action=success src=10.0.9.22
+2026-08-14T18:34:48Z WORKSTATION-EMP0071 user=EMP-0071 event=LOGOUT action=success src=10.0.5.9
+2026-08-14T19:08:32Z LAPTOP-EMP0086 user=EMP-0086 event=LOGOUT action=success src=10.0.4.30
+2026-08-14T19:49:43Z LAPTOP-EMP0047 user=EMP-0047 event=LOGOUT action=success src=10.0.4.12
+2026-08-14T22:33:00Z LAPTOP-EMP0047 user=EMP-0047 event=LOGIN action=success src=10.0.4.12
+2026-08-14T22:41:22Z WORKSTATION-EMP0031 user=EMP-0031 event=FILE_ACCESS action=read src=10.0.7.03 path=/finance/audit_2025.xlsx
+2026-08-14T23:12:04Z LAPTOP-EMP0047 user=EMP-0047 event=EMAIL_SENT action=success src=10.0.4.12 to=external
+2026-08-14T23:44:17Z WORKSTATION-EMP0011 user=EMP-0011 event=USB_INSERTED action=detected src=10.0.9.14
+2026-08-14T23:58:02Z LAPTOP-EMP0047 user=EMP-0047 event=LOGOUT action=success src=10.0.4.12
