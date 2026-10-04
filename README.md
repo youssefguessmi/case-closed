@@ -103,7 +103,7 @@ mysql -u root -p < sql/users.sql           # chatbot users
 
 ```bash
 streamlit run app.py          # web UI at http://localhost:8501
-python chatbot_cli.py         # or in the terminal
+python main.py               # or in the terminal
 ```
 
 Suggested questions to start with:
@@ -201,25 +201,13 @@ case-closed/
 │   ├── load.py               # Builds raw/curated/audit in MySQL
 │   └── export_sql.py         # Generates sql/blackwood.sql
 ├── sql/blackwood.sql         # Standalone MySQL build script (generated)
-├── main.py                   # Team ETL: evidence archiving, live PostgreSQL polling, MySQL load
-├── raw_evidence/             # Archived evidence copies written by main.py
-├── chain_of_custody_manifest.csv
+├── main.py                   # Same as chatbot_cli.py: python main.py starts the terminal chat
 ├── tests/test_offline.py     # Tests that need no DB or LLM
+├── Case Closed - The Broken Alibi.pptx   # Presentation
 ├── badge_access.csv          # Source data
 ├── device_logs.log
 └── building_transactions.sql
 ```
-
-### Two ETL paths
-
-- **`main.py`** (team ETL) archives and hashes the evidence files, polls PostgreSQL for new
-  transactions, and loads `employee_activity_timeline` into the MySQL database named by
-  `MYSQL_DATABASE`.
-- **`pipeline/load.py`** builds the `raw` / `curated` / `audit` schemas that the chatbot reads.
-
-The chatbot currently needs the `pipeline/load.py` schema. The two tables differ: for example,
-`event_timestamp_utc` vs `event_timestamp`, and `main.py` has no raw-text tables for per-record
-verification. Merging them into one ETL is the next step.
 
 ## Tests
 
