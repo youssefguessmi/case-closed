@@ -102,8 +102,8 @@ mysql -u root -p < sql/users.sql           # chatbot users
 ### 4. Run the chatbot
 
 ```bash
-streamlit run app.py          # web UI at http://localhost:8501
-python main.py               # or in the terminal
+streamlit run main.py         # web UI at http://localhost:8501 (same as: streamlit run app.py)
+python main.py                # or chat in the terminal
 ```
 
 Suggested questions to start with:
@@ -201,7 +201,7 @@ case-closed/
 │   ├── load.py               # Builds raw/curated/audit in MySQL
 │   └── export_sql.py         # Generates sql/blackwood.sql
 ├── sql/blackwood.sql         # Standalone MySQL build script (generated)
-├── main.py                   # python main.py starts the terminal chatbot
+├── main.py                   # Entry point: streamlit run → web UI, python → terminal chat
 ├── etl.py                    # Team ETL: evidence archiving, live PostgreSQL polling, MySQL load
 ├── raw_evidence/             # Archived evidence copies written by etl.py
 ├── chain_of_custody_manifest.csv
